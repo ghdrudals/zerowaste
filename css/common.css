@@ -1,0 +1,297 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    position: fixed;
+    z-index: 9;
+}
+header>article{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+header>article>h1{
+    margin: 0 auto;
+}
+header>article>h1>a>img{
+    object-fit: cover;
+    width: 100%; height: auto;
+}
+
+
+.header_img{
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+.header_img>div{
+    max-width: 30px; max-height: 30px;   
+}
+.header_img>div>a>img{
+    width: 100%; height: auto;
+}
+/* .header_img>div>a>img:hover{
+   
+} */
+.line{
+    max-width: 30px; max-height: 30px;   
+}
+.line>img{
+    display: none;
+    width: 100%; height: auto;
+}
+.xicon{
+    max-width: 30px; max-height: 30px;   
+}
+.xicon>img{
+    display: none;
+    width: 100%; height: auto;
+}
+
+
+
+nav{
+    width: 100%;
+}
+nav>ul{
+    max-width: 900px;
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+}
+nav>ul>li:hover>a{
+    color: rgb(255, 145, 0);
+}
+nav>ul>li>ul>li:hover>a{
+    color: rgb(255, 145, 0);
+}
+nav>ul>li{
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+nav>ul>li>a{
+    font-size: 20px;
+    color: black;
+}
+.ZEROWASTE_sub{
+    /* display: none; */
+    height: 0;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+nav>ul>li:hover>.ZEROWASTE_sub{
+    /* display: block; */
+    height: 80px;
+}
+.ZEROWASTE_sub>li>a{
+    display: block;
+    padding: 10px 0;
+    color: #000;
+}
+.goods_sub{
+    /* display: none; */
+    height: 0;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+nav>ul>li:hover>.goods_sub{
+    /* display: block; */
+    height: 120px;
+}
+.goods_sub>li>a{
+    display: block;
+    padding: 10px 0;
+    color: #000;
+}
+.inquiry_sub{
+    /* display: none; */
+    height: 0;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+nav>ul>li:hover>.inquiry_sub{
+    /* display: block; */
+    height: 160px;
+}
+.inquiry_sub>li>a{
+    display: block;
+    padding: 10px 0;
+    color: #000;
+}
+.notice_sub{
+    /* display: none; */
+    height: 0;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+nav>ul>li:hover>.notice_sub{
+    /* display: block; */
+    height: 120px;
+}
+.notice_sub>li>a{
+    display: block;
+    padding: 10px 0;
+    color: #000;
+}
+
+
+
+
+
+
+.rwd_box{
+    display: none;
+    position: relative;
+    max-width: 100%; height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.rwd_box>.box{
+    background-color: #fff;
+}
+.box_title{
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+.box_title>h1>a{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+.box_title>h1{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+.box_title>div>a{
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #deded2;
+    margin: 0 auto;
+}
+.footer_sec1{
+    display: flex;
+    padding: 20px 100px;
+}
+.adress>h1{
+    width: 100px; height: 80px;
+    padding: 20px 0;
+}
+.adress>h1>a>img{
+    object-fit: cover;
+    width: 100%; height: auto;
+}
+.adress1{
+    color: #3b3b3f;
+    font-weight: normal;
+    font-size: 13px;
+}
+.adress2{
+    color: #3b3b3f;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.nav1{
+    padding: 30px 0 0 30%;
+}
+.nav1>ul>li>a{
+    display: block;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #3b3b3f;
+}
+.nav1>ul>li>a:hover{
+    color: rgb(250, 184, 98);;
+}
+.nav2{
+    padding: 30px 0 0 100px;
+}
+.nav2>ul>li>a{
+    display: block;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #3b3b3f;
+}
+.nav2>ul>li>a:hover{
+    color: rgb(250, 184, 98);;
+}
+
+
+@media screen and (max-width: 1028px){
+    .line>img{
+        display: block;
+    }
+    .xicon>img{
+        display: block;
+    }
+    .header_img>div>a>img{
+        display: none;
+    }
+    nav>ul{
+        display: none;
+    }
+
+    
+    .adress1{
+        display: none;
+    }
+    .adress2{
+        font-size: 1.3vw;
+        padding: 1.9vw 0;
+    }
+    .nav1>ul>li>a{
+        padding: 5px 0;
+        font-size: 1.3vw;
+    }
+    .nav2>ul>li>a{
+        padding: 5px 0;
+        font-size: 1.3vw;
+    }
+} 
+
+
+
+
+
+@media screen and (max-width: 720px){
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+
+}

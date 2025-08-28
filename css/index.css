@@ -1,0 +1,544 @@
+main{
+    max-width: 100%;
+}
+.sec1{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.sec1 img{
+    width: 100%; height: auto;
+}
+.sec2>.img1{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+.img1_1{
+    flex: 4;
+}
+.img1_2{
+    flex: 6;
+}
+.img1_1 img{
+    object-fit: cover;
+    width: 100%; height: auto;
+    max-height: 370px;
+}
+.img1_2 img{
+    object-fit: cover;
+    width: 100%; height: auto;
+    max-height: 370px;
+}
+
+
+
+.sec3{
+    width: 955px;
+    margin: 0 auto;
+}
+.sec3>h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+
+
+
+.sec3 img{
+    width: 220px; height: 210px;
+    border-radius: 5%;
+}
+.price>p{
+    font-size: 15px;
+    color: #999;
+    padding: 10px 0;
+}
+.price>p:hover{
+    color: rgb(255, 145, 0);
+}
+.price>h3{
+    font-size: 17px;
+    color: black;
+}
+.price>h3:hover{
+    color: rgb(255, 145, 0);
+}
+.price>h4{
+    font-size: 15px;
+    color: rgb(240, 152, 37);
+}
+.sec3>article{
+    display: flex;
+    gap: 30px;
+}
+
+
+.sec4{
+    width: 955px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.sec4>h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+.sec4 img{
+    width: 305px; height: 269px;
+    border-radius: 5%;
+}
+.sec4>article{
+    display: flex;
+    gap: 20px;
+}
+
+.notice{
+    width: 955px; height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.notice>article{
+    display: flex;
+    gap: 30px;
+}
+.notice div{
+    width: 174px; height: 159px;
+    
+}
+.notice h3{
+    font-size: 17px;
+    font-weight: 500;
+}
+.notice h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.notice img{
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.notice_txt{
+    font-size: 12px;
+    text-align: center;
+}
+.notice_txt>p{
+    padding-top: 10px;
+    color: black;
+}
+
+
+.program{
+    width: 955px; height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.program>article{
+    display: flex;
+    gap: 30px;
+}
+.program div{
+    width: 174px; height: 159px; 
+}
+.program h3{
+    font-size: 17px;
+    font-weight: 500;
+}
+.program h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.program img{
+    width: 174px; height: 159px;
+}
+.program_txt{
+    font-size: 12px;
+    text-align: center;
+}
+.program_txt>p{
+    padding-top: 10px;
+    color: black;
+}
+
+
+
+.instagram{
+    width: 955px; 
+    margin: 0 auto;
+}
+.instagram>h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.instagram1{
+    display: flex;
+    gap: 20px;
+}
+.instagram1>div>a>img{
+    width: 175px; height: 148px;
+}
+.instagram2{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.instagram2>div>a>img{
+    width: 175px; height: 148px;
+}
+
+
+
+.instagram_button>div{
+    width: 80px;
+    background-color: #deded2;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.instagram_button p{
+    color: #3b3b3f;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    padding: 12px 0;
+    vertical-align: middle;
+}
+.instagram_button>div>a:hover>p{
+    background-color: rgb(255, 145, 0);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1028px){
+    .sec3>h2{
+        font-size: 1.9vw;
+        padding: 30px 0;
+    }
+    .price>p{
+        font-size: 1.4vw;
+        padding: 10px 0;
+    }
+    .price>h3{
+        font-size: 1.6vw;
+    }
+    .price>h4{
+        font-size: 1.4vw;
+    }
+    .sec3{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec3>article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .sec3>h2{
+        padding: 30px 30px;
+    }
+    .sec3 img{
+        width: 100%; height: auto;
+    }
+
+
+    .sec4>h2{
+        font-size: 1.9vw;
+        padding: 30px 0;
+    }
+    .sec4{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec4>article{
+        display: flex;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .sec4>h2{
+        padding: 30px 30px;
+    }
+    .sec4 img{
+        width: 100%; height: auto;
+    }
+
+
+    .notice h3{
+        font-size: 1.6vw;
+    }
+    .notice h2{
+        font-size: 1.9vw;
+    }
+    .notice_txt{
+        font-size: 1.1vw;
+    }
+    .notice{
+        width: 100%; height: auto;
+    }
+    .notice>article{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .notice>article>div{
+        width: 100%; height: auto;
+    }
+    .notice div{
+        width: 100%; height: auto;
+    }
+    .notice img{
+        width: 100%; height: 100%;
+    }
+    .notice>article>figure:nth-last-child(1){
+        display: none;
+    }
+    .notice>article>figure:nth-last-child(2){
+        display: none;
+    }
+   
+    
+    .program h3{
+        font-size: 1.6vw;
+    }
+    .program h2{
+        font-size: 1.9vw;
+    }
+    .program_txt{
+        font-size: 1.1vw;
+    }
+    .program{
+        width: 100%; height: auto;
+    }
+    .program>article{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .program div{
+        width: 100%; height: auto;
+    }
+    .program img{
+        width: 100%; height: auto;
+    }
+    .program_txt>p{
+        padding-top: 10px;
+        color: black;
+    }
+    .program>article>figure:nth-last-child(1){
+        display: none;
+    }
+    .program>article>figure:nth-last-child(2){
+        display: none;
+    }
+
+
+
+
+    .instagram>h2{
+        padding-bottom: 20px;
+        font-size: 1.9vw;
+    }
+    .instagram{
+        width: 100%; 
+        padding: 0 30px;
+    }
+    .instagram1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .instagram1>div>a>img{
+        width: 100%; height: auto;
+    }
+    .instagram1>div:nth-last-child(1){
+        display: none;
+    }
+    .instagram2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .instagram2>div>a>img{
+        width: 100%; height: auto;
+    }
+    .instagram2>div:nth-last-child(1){
+        display: none;
+    }
+
+
+
+    .instagram_button p{
+        color: #3b3b3f;
+        text-align: center;
+        font-size: 1.7vw;
+        font-weight: bold;
+        display: block;
+        vertical-align: middle;
+    }
+    .instagram_button>div{
+        width: 50px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px){
+    .sec3>article{   
+        gap: 20px;
+    }
+
+
+    .sec4>article{
+        display: flex;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .sec4>h2{
+        padding: 30px 30px;
+    }
+    .sec4>article>figure:nth-last-child(1){
+        display: none;
+    }
+
+
+
+
+    .notice>article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .notice>article>div{
+        width: 100%; height: auto;
+    }
+    .notice div{
+        width: 100%; height: auto;
+    }
+    .notice img{
+        width: 100%; height: 100%;
+    }
+    .notice>article>figure:nth-last-child(1){
+        display: none;
+    }
+    .notice>article>figure:nth-last-child(2){
+        display: none;
+    }
+    .notice>article>figure:nth-last-child(3){
+        display: none;
+    }
+   
+    
+
+    .program{
+        width: 100%; height: auto;
+    }
+    .program>article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 30px;
+    }
+    .program div{
+        width: 100%; height: auto;
+    }
+    .program h3{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .program h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .program img{
+        width: 100%; height: auto;
+    }
+    .program_txt{
+        font-size: 12px;
+        text-align: center;
+    }
+    .program_txt>p{
+        padding-top: 10px;
+        color: black;
+    }
+    .program>article>figure:nth-last-child(1){
+        display: none;
+    }
+    .program>article>figure:nth-last-child(2){
+        display: none;
+    }
+    .program>article>figure:nth-last-child(3){
+        display: none;
+    }
+
+
+
+
+
+    .instagram{
+        width: 100%; 
+        padding: 0 30px;
+    }
+    .instagram>h2{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .instagram1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .instagram1>div>a>img{
+        width: 100%; height: auto;
+    }
+    .instagram1>div:nth-last-child(1){
+        display: none;
+    }
+    .instagram2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .instagram2>div>a>img{
+        width: 100%; height: auto;
+    }
+    .instagram2>div:nth-last-child(1){
+        display: none;
+    }
+
+
+}
